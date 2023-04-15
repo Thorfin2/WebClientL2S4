@@ -72,8 +72,9 @@ function getChat() {
                 zonemessage.appendChild(message);
 
                 chat.appendChild(zonemessage);
-            }
+          }
             chat.scrollBy(0, chat.scrollHeight)
+            document.getElementById("msg").value=""
         }
     }
     xhr.send();
