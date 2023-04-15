@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>.
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Japanese Domestic Cars</title>
+  <link rel="icon" href="../images/trueno.png" />
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/register-login.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="../index.html"><img src="../images/trueno.png" alt="Logo of the Japanese Domestic Cars website"></a>
+    </div>
+    <nav>
+      <div class="nav">
+        <input type="checkbox" id="active" checked="false">
+        <label for="active" class="menu-btn"></label>
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/models.html">Models</a></li>
+          <li><a href="../html/about.html">What is JDM ?</a></li>
+          <li><a href="../html/register.html">Register</a></li>
+          <li id="loginLink"><a href="../html/login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="form">
+      <div class="title">Welcome</div>
+      <div class="subtitle">Let's create your account!</div>
+      <form id="Loginform" name="login" action="../htbin/login.py" method="post">
+        <div class="input-container ic1">
+          <label for="user_name">Username:</label>
+          <input class="input" placeholder="Username" type="text" id="user_name" name="username" required>
+        </div>
+        <div class="input-container ic2">
+          <label for="user_pwd">Password:</label>
+          <input class="input" placeholder="Password" type="password" id="user_pwd" name="userpwd" required>
+        </div>
+        <button type="text" class="submit">Login</button>
+      </form>
+      <a href="../html/register.html"> Need an account? Sign up </a>
+      <div id="result"></div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="../js/login.js"></script>
+</body>
+
+</html>

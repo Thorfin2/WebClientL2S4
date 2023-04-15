@@ -1,0 +1,52 @@
+
+input {
+    border: none;
+    color: black;
+    width: 100%;
+    padding: 7px;
+  
+  
+  }
+  
+  
+  div.chatbox {
+    text-align: center;
+  }
+  
+  
+  #chat {
+    width: 94%;
+    background-color: #532929;
+    margin: auto;
+    display: block;
+    overflow-y: scroll;
+    max-height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .box-message {
+    display: flex;
+  }
+  
+  .box-message p {
+    margin-right: 25px;
+  }
+  
+  
+  .input {
+    width: 90%;
+  }
+  
+  #chatbox {
+  
+    padding: 15px 0px 24px 0px;
+  }
+  
+  section.chatsection {
+    box-shadow: 0 0 20px green ;
+  }
+  
+  
+  
+  
